@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Angela/AngelaScene.unity
     guid: ec97ed57fcb7be74d976bf59a892cfeb
+  - enabled: 1
+    path: Assets/Scenes/Mike/EssentialsAudioScene - Mike.unity
+    guid: b7c1c20d8ba8bc34096e5aeedd404089
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c35a85825a66f40469580d5c754cef8f,
       type: 2}
