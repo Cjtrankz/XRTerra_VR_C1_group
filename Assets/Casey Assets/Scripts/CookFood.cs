@@ -24,7 +24,7 @@ public class CookFood : MonoBehaviour
         if(other.gameObject.tag == "Food")
         {
             col = other.GetComponent<Renderer>().material.color;
-            Vector4 newCol = new Color(col.r - 0.002f,col.g - 0.002f,col.b - 0.002f);
+            Vector4 newCol = new Color(col.r - 0.001f,col.g - 0.001f,col.b - 0.001f);
             other.GetComponent<Renderer>().material.color = newCol;
             col = newCol;
         }
