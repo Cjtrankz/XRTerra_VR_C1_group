@@ -17,6 +17,10 @@ EditorBuildSettings:
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c35a85825a66f40469580d5c754cef8f,
       type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: d3e346d8c7bbf2b47870e5b8a82ae129,
+      type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
+      guid: 097610c474248354ea76991c19dcb912, type: 2}
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: a91308fe4e292d84d8d4a22ac42a8bf3,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c9eb74ab5f9fa1c4bb3d7d7675be8566,
