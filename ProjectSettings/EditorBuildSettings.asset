@@ -8,12 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Angela/AngelaScene.unity
     guid: ec97ed57fcb7be74d976bf59a892cfeb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Mike/EssentialsAudioScene - Mike.unity
     guid: b7c1c20d8ba8bc34096e5aeedd404089
+  - enabled: 1
+    path: Assets/Scenes/Yisi/EssentialsAudioScene - Yisi.unity
+    guid: 52b536ca010333949b704571b11c831f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c35a85825a66f40469580d5c754cef8f,
       type: 2}
