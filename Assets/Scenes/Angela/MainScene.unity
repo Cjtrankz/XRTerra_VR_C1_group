@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18295181, g: 0.22625718, b: 0.29297787, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -992,7 +992,7 @@ GameObject:
   - component: {fileID: 273079291}
   - component: {fileID: 273079290}
   m_Layer: 0
-  m_Name: Copy of Copy of Visual Board of Assets Changes (9)
+  m_Name: KitchenImageStove1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1407,8 +1407,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 343804659}
   m_LocalRotation: {x: 0.094186865, y: 0.70084685, z: -0.0941981, w: 0.70076334}
-  m_LocalPosition: {x: 4.252, y: 0.906, z: -2.527}
-  m_LocalScale: {x: 0.08410691, y: 0.13386928, z: 0.079424}
+  m_LocalPosition: {x: 4.25, y: 0.828, z: -2.527}
+  m_LocalScale: {x: 0.090692475, y: 0.14435124, z: 0.085642904}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
@@ -1424,7 +1424,7 @@ GameObject:
   - component: {fileID: 410920344}
   - component: {fileID: 410920343}
   m_Layer: 0
-  m_Name: Copy of Copy of Visual Board of Assets Changes (2)
+  m_Name: StoveImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1493,7 +1493,7 @@ Transform:
   m_LocalScale: {x: 0.011181333, y: 0.017664265, z: 0.012004236}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: -88.887, y: 99.45, z: 80.653}
 --- !u!1 &411400521
 GameObject:
@@ -1506,7 +1506,7 @@ GameObject:
   - component: {fileID: 411400523}
   - component: {fileID: 411400522}
   m_Layer: 0
-  m_Name: Copy of Copy of Visual Board of Assets Changes (10)
+  m_Name: ItWasAllADream1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2584,7 +2584,7 @@ GameObject:
   - component: {fileID: 717086598}
   - component: {fileID: 717086597}
   m_Layer: 0
-  m_Name: Copy of Copy of Visual Board of Assets Changes (4)
+  m_Name: LargeImageCyberCity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2653,7 +2653,7 @@ Transform:
   m_LocalScale: {x: -0.049480516, y: -0.049480516, z: -0.049480516}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 1.117, y: 89.889, z: -180.124}
 --- !u!1001 &728175216
 PrefabInstance:
@@ -8082,7 +8082,7 @@ GameObject:
   - component: {fileID: 914109057}
   - component: {fileID: 914109056}
   m_Layer: 0
-  m_Name: A04-Ricco-221008-ML-12
+  m_Name: CatImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9909,7 +9909,7 @@ GameObject:
   - component: {fileID: 1484566048}
   - component: {fileID: 1484566047}
   m_Layer: 0
-  m_Name: Copy of Copy of Visual Board of Assets Changes (12)
+  m_Name: LightSwitchGlow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10794,7 +10794,7 @@ GameObject:
   - component: {fileID: 1654352459}
   - component: {fileID: 1654352458}
   m_Layer: 0
-  m_Name: Copy of Copy of Visual Board of Assets Changes (11)
+  m_Name: MetaverseImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10876,7 +10876,7 @@ GameObject:
   - component: {fileID: 1666841477}
   - component: {fileID: 1666841476}
   m_Layer: 0
-  m_Name: Copy of Copy of Visual Board of Assets Changes (14)
+  m_Name: ItWasAllADream
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11461,7 +11461,7 @@ GameObject:
   - component: {fileID: 1846363127}
   - component: {fileID: 1846363126}
   m_Layer: 0
-  m_Name: Copy of Copy of Visual Board of Assets Changes (7)
+  m_Name: ArcadeImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
