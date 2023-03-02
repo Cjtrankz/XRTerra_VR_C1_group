@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.17566615, g: 0.2122975, b: 0.25917974, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -505,10 +505,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 66008394715386207, guid: 0b9f411af025e42438918ed9762c957b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -350
+      objectReference: {fileID: 0}
+    - target: {fileID: 780532855034181986, guid: 0b9f411af025e42438918ed9762c957b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -737
+      objectReference: {fileID: 0}
+    - target: {fileID: 1171692009128723993, guid: 0b9f411af025e42438918ed9762c957b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -648
+      objectReference: {fileID: 0}
     - target: {fileID: 4074055282111734614, guid: 0b9f411af025e42438918ed9762c957b,
         type: 3}
       propertyPath: m_Text
-      value: Casey Tran - Developer
+      value: " Developers\nCasey Tran    Mike   \nYisi \n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6236140695239800892, guid: 0b9f411af025e42438918ed9762c957b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6710312747223883728, guid: 0b9f411af025e42438918ed9762c957b,
         type: 3}
@@ -523,7 +543,7 @@ PrefabInstance:
     - target: {fileID: 6710312747223883728, guid: 0b9f411af025e42438918ed9762c957b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -238
       objectReference: {fileID: 0}
     - target: {fileID: 6710312747223883728, guid: 0b9f411af025e42438918ed9762c957b,
         type: 3}
@@ -586,5 +606,34 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: fa4f9c1ec2c79964ebcbb7282e0c2d59,
         type: 3}
+    - target: {fileID: 6752597991349200119, guid: 0b9f411af025e42438918ed9762c957b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597386270640323801, guid: 0b9f411af025e42438918ed9762c957b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -821
+      objectReference: {fileID: 0}
+    - target: {fileID: 7778569859408780686, guid: 0b9f411af025e42438918ed9762c957b,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Game Designers
+
+        Angela Fraser
+
+        Yisi '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871615454220756159, guid: 0b9f411af025e42438918ed9762c957b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -642
+      objectReference: {fileID: 0}
+    - target: {fileID: 9000531588850509185, guid: 0b9f411af025e42438918ed9762c957b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b9f411af025e42438918ed9762c957b, type: 3}
