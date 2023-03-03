@@ -878,7 +878,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 88654779a80038b458d6733b712e3dae, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.029
+  m_Volume: 0.531
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2319,8 +2319,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.762, y: 1.0668001, z: 0.61165535}
-  m_Center: {x: 0.38099995, y: 0.53339994, z: 0.30582792}
+  m_Size: {x: 0.762, y: 0.9177066, z: 0.61165535}
+  m_Center: {x: 0.38099995, y: 0.4588532, z: 0.30582792}
 --- !u!1001 &418537492
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3253,6 +3253,25 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 5c8a4e1f248ae9f4fab83ef327ff3898, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce7f2e955080e344888dc16146705f75, type: 3}
+--- !u!1 &502347168 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: ce7f2e955080e344888dc16146705f75,
+    type: 3}
+  m_PrefabInstance: {fileID: 502347167}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &502347169
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502347168}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.762, y: 0.9132124, z: 0.61165535}
+  m_Center: {x: 0.38099995, y: 0.4566061, z: 0.30582792}
 --- !u!1 &505709136
 GameObject:
   m_ObjectHideFlags: 0
@@ -4541,8 +4560,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.76199996, y: 1.0668, z: 0.61165535}
-  m_Center: {x: 0.38099998, y: 0.5334, z: 0.30582792}
+  m_Size: {x: 0.76199996, y: 0.91880476, z: 0.61165535}
+  m_Center: {x: 0.38099998, y: 0.45940238, z: 0.30582792}
 --- !u!1001 &710109529
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11998,15 +12017,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4023578174255116, guid: f3e44870c7d004aa3a92cdfabc5207bc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.194207
+      value: -4.194
       objectReference: {fileID: 0}
     - target: {fileID: 4023578174255116, guid: f3e44870c7d004aa3a92cdfabc5207bc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.90294224
+      value: 0.912
       objectReference: {fileID: 0}
     - target: {fileID: 4023578174255116, guid: f3e44870c7d004aa3a92cdfabc5207bc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.6640139
+      value: 1.664
       objectReference: {fileID: 0}
     - target: {fileID: 4023578174255116, guid: f3e44870c7d004aa3a92cdfabc5207bc, type: 3}
       propertyPath: m_LocalRotation.w
@@ -13198,7 +13217,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9669960e415ea604d81fb0784634df79, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.161
+  m_Volume: 0.859
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -13977,8 +13996,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.91242415, y: 1.1648345, z: 0.5548945}
-  m_Center: {x: 0.4580851, y: 0.58234787, z: 0.25514516}
+  m_Size: {x: 0.91242415, y: 0.9140062, z: 0.6468566}
+  m_Center: {x: 0.4580851, y: 0.4569337, z: 0.3011262}
 --- !u!1 &1484566046
 GameObject:
   m_ObjectHideFlags: 0
@@ -17499,8 +17518,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.38099998, y: 1.0668001, z: 0.6116554}
-  m_Center: {x: -0.19050002, y: 0.53340006, z: 0.30582795}
+  m_Size: {x: 0.38099998, y: 0.9151598, z: 0.6116554}
+  m_Center: {x: -0.19050002, y: 0.4575799, z: 0.30582795}
 --- !u!1 &1846363125
 GameObject:
   m_ObjectHideFlags: 0
@@ -17626,7 +17645,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b02ad6d7b5ee5c2469504039e9f13ede, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.009
+  m_Volume: 0.475
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -25857,7 +25876,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 276756057506332589, guid: 5b4b33c6a7cb3b4478a862f9276a0864, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
