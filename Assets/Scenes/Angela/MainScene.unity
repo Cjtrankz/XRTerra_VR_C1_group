@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18295181, g: 0.22625718, b: 0.29297787, a: 1}
+  m_IndirectSpecularColor: {r: 0.068541184, g: 0.016840056, b: 0.04744755, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,9 +97,9 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 3ed98961d527a4a45a962d708ce88308,
+  m_LightingDataAsset: {fileID: 112000000, guid: ac280d0fa01185b4aa1586585460d008,
     type: 2}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: 855e64925882dcc4f9e122944f2d1784,
+  m_LightingSettings: {fileID: 4890085278179872738, guid: ea9bf698266cc4348b3b646676784be9,
     type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -1660,7 +1660,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -10600,7 +10600,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -14130,7 +14130,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -19668,7 +19668,7 @@ PrefabInstance:
     - target: {fileID: 693456400945595469, guid: f917e8c1287c7d04f840b022fed9e8c5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.137
       objectReference: {fileID: 0}
     - target: {fileID: 693456400945595469, guid: f917e8c1287c7d04f840b022fed9e8c5,
         type: 3}
