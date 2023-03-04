@@ -48,7 +48,7 @@ public class PourDetector : MonoBehaviour
    {
         //Debug.Log(transform.forward.y * Mathf.Rad2Deg);
         float angle = Vector3.Angle(Vector3.up, transform.up);
-        Debug.Log(angle);
+        //Debug.Log(angle);
         return angle;
    }
 

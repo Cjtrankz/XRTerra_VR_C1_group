@@ -15,7 +15,7 @@ using UnityEngine;
         }
 
         void Update() {
-        Debug.Log(_voice.volume.ToString());
+        //Debug.Log(_voice.volume.ToString());
             // Use the current voice volume (a value between 0 - 1) to calculate the target mouth size (between 0.1 and 1.0)
             float targetMouthSize = Mathf.Lerp(0.1f, 1.0f, _voice.volume);
 
