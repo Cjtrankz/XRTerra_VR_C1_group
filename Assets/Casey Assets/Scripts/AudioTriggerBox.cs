@@ -21,10 +21,13 @@ public class AudioTriggerBox : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {   
-        if(!hasPlayed)
+        if(other.gameObject.tag == "Player")
         {
-            clip.Play();
-            hasPlayed = true;
+            if(!hasPlayed)
+            {
+                clip.Play();
+                hasPlayed = true;
+            }
         }
     }
 }
