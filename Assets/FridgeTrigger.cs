@@ -5,20 +5,26 @@ using UnityEngine;
 public class FridgeTrigger : MonoBehaviour
 {
     public AudioSource fridgeSound;
-    
+    HingeJoint hinge;
 
     // Start is called before the first frame update
     private void Start()
     {
         fridgeSound = GetComponent<AudioSource>();
+        hinge = GetComponent<HingeJoint>();
        
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void Update()
     {
-        if(collision.gameObject.CompareTag("fridge Trigger"))
+        if (hinge.angle > 10)
         {
-            fridgeSound.enabled = true;
+            fridgeSound.Play();
+        }
+
+        else
+        {
+            fridgeSound.Stop();
         }
     }
 }
