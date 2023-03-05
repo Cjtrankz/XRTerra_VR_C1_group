@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using EzySlice;
+using UnityEngine.XR.Interaction.Toolkit;
+
 public class Slicer : MonoBehaviour
 {
     public Material materialAfterSlice;
@@ -45,6 +47,7 @@ public class Slicer : MonoBehaviour
         //make newly sliced objects still sliceable by adding them to the sliceable layer
         obj.layer = LayerMask.NameToLayer("Sliceable");
         obj.tag = "Food";
+        obj.AddComponent<XRGrabInteractable>();
     }
 
     private SlicedHull SliceObject(GameObject obj, Material crossSectionMaterial = null)
