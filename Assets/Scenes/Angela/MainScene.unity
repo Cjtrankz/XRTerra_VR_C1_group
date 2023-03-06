@@ -3255,6 +3255,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AITalker
       objectReference: {fileID: 0}
+    - target: {fileID: 1435502846325602, guid: e47f3f5f778d27a4db52c387552edf23, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4736743072354544, guid: e47f3f5f778d27a4db52c387552edf23, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -3297,16 +3301,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4736743072354544, guid: e47f3f5f778d27a4db52c387552edf23, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6159178773725415219, guid: e47f3f5f778d27a4db52c387552edf23,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 979f51803bf54f44ba9519a390a5641a, type: 3}
-    - target: {fileID: 6159178773725415219, guid: e47f3f5f778d27a4db52c387552edf23,
-        type: 3}
-      propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -23544,7 +23538,7 @@ PrefabInstance:
     - target: {fileID: 6235061886813238069, guid: 79c93a1e39248c347a4f04377f67d149,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.03
+      value: 2.485
       objectReference: {fileID: 0}
     - target: {fileID: 6235061886813238069, guid: 79c93a1e39248c347a4f04377f67d149,
         type: 3}
@@ -23554,7 +23548,7 @@ PrefabInstance:
     - target: {fileID: 6235061886813238069, guid: 79c93a1e39248c347a4f04377f67d149,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.18
+      value: 8.265
       objectReference: {fileID: 0}
     - target: {fileID: 6235061886813238069, guid: 79c93a1e39248c347a4f04377f67d149,
         type: 3}
@@ -28601,6 +28595,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7990650500129350139, guid: f917e8c1287c7d04f840b022fed9e8c5,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f598ccb64fb813c40a202fc33076432e, type: 3}
     - target: {fileID: 7990650500282515508, guid: f917e8c1287c7d04f840b022fed9e8c5,
         type: 3}
       propertyPath: m_Enabled
@@ -28630,6 +28629,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7990650501187310335, guid: f917e8c1287c7d04f840b022fed9e8c5,
+        type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7990650501482748489, guid: f917e8c1287c7d04f840b022fed9e8c5,
         type: 3}
@@ -28696,7 +28700,8 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.068
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7990650500129350139, guid: f917e8c1287c7d04f840b022fed9e8c5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f917e8c1287c7d04f840b022fed9e8c5, type: 3}
 --- !u!1001 &1953924442
 PrefabInstance:

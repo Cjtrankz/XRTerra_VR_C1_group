@@ -11,11 +11,11 @@ public class QuitMenuScript : MonoBehaviour
 
 	void Update()
 	{
-		if (Input.GetKeyUp(KeyCode.Escape)) 
+	/*	if (Input.GetKeyUp(KeyCode.Escape)) 
 		{
 			loadingScreen.SetActive(true);
 			Invoke("LoadMMenu", 0.9f);
-		} 
+		} */
 	}
 
 	void LoadMMenu()
