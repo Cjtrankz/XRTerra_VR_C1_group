@@ -2353,7 +2353,6 @@ GameObject:
   - component: {fileID: 256223545}
   - component: {fileID: 256223544}
   - component: {fileID: 256223546}
-  - component: {fileID: 256223547}
   m_Layer: 0
   m_Name: Plate
   m_TagString: Untagged
@@ -2424,20 +2423,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 256223542}
   m_Mesh: {fileID: -6930695562829251193, guid: adbff87e5de2e3045a069b95c04f9c76, type: 3}
---- !u!65 &256223546
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 256223542}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.006026, y: 0.00039299997, z: 0.006026}
-  m_Center: {x: -0.003013, y: 0.00019649998, z: -0.003013}
---- !u!114 &256223547
+--- !u!114 &256223546
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2449,7 +2435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 0}
+  m_InteractionManager: {fileID: 1218059278}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -23404,7 +23390,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1428676986
 Transform:
   m_ObjectHideFlags: 0
