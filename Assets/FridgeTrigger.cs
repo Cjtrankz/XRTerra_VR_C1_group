@@ -10,7 +10,7 @@ public class FridgeTrigger : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        fridgeSound = GetComponent<AudioSource>();
+        //fridgeSound = GetComponent<AudioSource>();
         hinge = GetComponent<HingeJoint>();
        
     }
