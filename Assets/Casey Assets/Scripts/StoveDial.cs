@@ -6,6 +6,7 @@ public class StoveDial : MonoBehaviour
 {
 
     public GameObject StoveFlame;
+    public GameObject StoveSmoke;
     HingeJoint hinge;
 
     // Start is called before the first frame update
@@ -20,10 +21,12 @@ public class StoveDial : MonoBehaviour
         if(hinge.angle > 90)
         {
             StoveFlame.SetActive(true);
+            StoveSmoke.SetActive(true);
         }
         else
         {
             StoveFlame.SetActive(false);
+            StoveSmoke.SetActive(false);
         }
         //Debug.Log("hinge angle is :" + hinge.angle);
     }
