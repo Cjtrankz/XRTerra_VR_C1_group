@@ -10,6 +10,10 @@ public class LightSwitchController : MonoBehaviour
 
     [SerializeField] private UnityEvent lightOnEvent;
     [SerializeField] private UnityEvent lightOffEvent;
+    private void Start()
+    {
+        lightOffEvent.Invoke();
+    }
     public void InteractSwitch()
     {
         if (isLightOn)
